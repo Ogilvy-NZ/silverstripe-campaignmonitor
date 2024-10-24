@@ -13,9 +13,10 @@
         "issues": "http://github.com/tractorcow/silverstripe-campaignmonitor/issues"
     },
     "require": {
-		"silverstripe/framework": "^4",
+        "php": "^8.1",
+		"silverstripe/framework": "^5",
         "composer/installers": "*",
-        "campaignmonitor/createsend-php": "6.0.0"
+        "campaignmonitor/createsend-php": "^6"
     },
     "extra": {
         "installer-name": "campaignmonitor"
